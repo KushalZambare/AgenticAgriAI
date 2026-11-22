@@ -2,23 +2,19 @@
 # Python
 __pycache__/
 *.py[cod]
-venv/
 .venv/
+venv/
 .env
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Datasets
+# Ignore dataset files
 datasets/*
 
-# Trained models
-*.pkl
-*.joblib
-*.h5
-*.keras
-*.pt
-*.pth
+# Keep dataset documentation
+!datasets/**/
+!datasets/**/*.md
 
 # IDE
 .vscode/
